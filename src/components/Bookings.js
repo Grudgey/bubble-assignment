@@ -63,7 +63,7 @@ export default function Bookings(props) {
         bookingsData.confirmedBookings.length > 0 ? (
           bookingsData.confirmedBookings.map((booking, index) => {
             return (
-              <div className="shadow row booking-confirmed m-3 p-1">
+              <div key={index} className="shadow row booking-confirmed m-3 p-1">
                 <div className="col text-start">
                   <h5>{booking.otherUserFullName}</h5>
                   <p>{booking.scheduledDuration} mins</p>
@@ -105,7 +105,7 @@ export default function Bookings(props) {
       {bookingsData.requestedBookings.length > 0
         ? bookingsData.requestedBookings.map((booking, index) => {
             return (
-              <div className="shadow row booking-confirmed m-3 p-1">
+              <div key={index} className="shadow row booking-confirmed m-3 p-1">
                 <div className="col text-start">
                   <h5>{booking.otherUserFullName}</h5>
                   <p>{booking.scheduledDuration} hours</p>
