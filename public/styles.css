@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+}
+
+h2, p, h3, h5 {
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-content {
+  margin: 0 3% 0 3%;
+}
+
+.form-signin, .form-search {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+  background-color: #28B99D;
+  border-color: #28B99D;
+}
+
+.profile-col {
+  background-color: #55427A;
+}
+
+.sitters-col {
+  
+}
+
+.sitters-col h1 {
+  color:#E15554;
+}
+
+.sitters-col p {
+  color:#3F3F3F;
+}
+.bookings-col h3 {
+  color:#55427A;
+}
+
+.booking-confirmed {
+  background-color: #55427A;
+  border-radius: 20px;
+}
